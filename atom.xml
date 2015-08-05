@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2015-08-05T07:15:29.000Z</updated>
+  <updated>2015-08-05T07:25:21.000Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -20,11 +20,14 @@
     <link href="http://yoursite.com/2015/08/05/Tomcat/"/>
     <id>http://yoursite.com/2015/08/05/Tomcat/</id>
     <published>2015-08-05T07:15:29.000Z</published>
-    <updated>2015-08-05T07:15:29.000Z</updated>
-    <content type="html"></content>
+    <updated>2015-08-05T07:25:21.000Z</updated>
+    <content type="html"><![CDATA[<p>8.5<br>(题外话：今天好烦躁，出差了，换了一个环境，之前用intellij搭建的超级简单的项目居然出问题了，localhost:8080访问不了之类的，同时127.0.0.1:8080又可以访问)<br>（后来后来，通过程序猿鼓励师的帮忙，首先解决了tomcat 不能 shutdown的问题，后来又解决了找不到java class的问题，后来又有别的问题。解决方案如下）<br>出现的错误 tomcat,intellij<br>问题1，端口被占用，不能使用./shutdown.sh关闭Tomcat<br>localhost没有和那个127.0.0.1联系一起  去/etc/hosts 里面绑定一下（之前的mysites和127.0.0.1绑定了，已经被我删掉了）<br>问题2，端口被占用<br>ps -ef|grep tomcat 看看被占用的端口是什么 比如1066<br>然后 kill -9 1066<br>问题3，web.xml找不到Test的问题<br>就是对src目录进行mark dictionary as source root<br>问题4，output path有问题<br>应该要改为 /Users/yanghuirong/Documents/web_workspace/test/web/WEB-INF/classes<br>（把鼠标放在test的根目录 然后按花❀键和回车  设置path）</p>
+]]></content>
     <summary type="html">
-    
+    <![CDATA[<p>8.5<br>(题外话：今天好烦躁，出差了，换了一个环境，之前用intellij搭建的超级简单的项目居然出问题了，localhost:8080访问不了之类的，同时127.0.0.1:8080又可以访问)<br>（后来后来，通过程序猿鼓励师的帮忙，首先解决了tomcat 不能]]>
     </summary>
+    
+      <category term="tomcat web.xml intellij" scheme="http://yoursite.com/tags/tomcat-web-xml-intellij/"/>
     
   </entry>
   
