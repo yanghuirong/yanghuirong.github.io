@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2015-08-05T07:25:21.000Z</updated>
+  <updated>2015-08-06T07:45:59.000Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -14,6 +14,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[configTomcatAtEclipse]]></title>
+    <link href="http://yoursite.com/2015/08/06/configTomcatAtEclipse/"/>
+    <id>http://yoursite.com/2015/08/06/configTomcatAtEclipse/</id>
+    <published>2015-08-06T07:28:34.000Z</published>
+    <updated>2015-08-06T07:45:59.000Z</updated>
+    <content type="html"><![CDATA[<p>唔，今天又配置环境了0 0.好不容易想蹭个页面的小功能做一做，所以需要重新配置一下环境。用intellij配置的话，我不知道那种VM argument写在哪里。因为要连数据库嘛。<br>以前用Eclipse配置过一次了，所以这次还是Eclipse配置环境吧。大概花了一小时吧。写一下需要做的步骤和遇到的问题。<br>问题1，在eclipse里面没找到新建web project<br>在eclipse的右上角有一个Java EE | Java  切换到Java EE就好了。<br>（我反复打开了很多次- - 好坑 我就说我下的就是Eclipse EE嘛。）<br>问题2，在我的Tomcat/webapps里面打死也没找到我部署的项目。<br>首先，需要在跟console位置差不多的地方找到server，新建一个server，把项目导入进去，然后双击新建好的server，选择第二个Use Tomcat Installation<br>Server Path 就是安装 Tomcat的路径<br>Deploy Path 我是选的 webapps<br>问题3，tomcat端口被占用<br>参考昨天的那个ps -ef|grep指令来弄吧~<br>问题4，run configuration里面的配置直接复制过来是有问题的<br>仔细检查一下，不需要反斜杠</p>
+<p>config里面的config.xml里面的目标数据库改一下。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>唔，今天又配置环境了0 0.好不容易想蹭个页面的小功能做一做，所以需要重新配置一下环境。用intellij配置的话，我不知道那种VM argument写在哪里。因为要连数据库嘛。<br>以前用Eclipse配置过一次了，所以这次还是Eclipse配置环境吧。大概花了一小时吧]]>
+    </summary>
+    
+      <category term="Tomcat Eclipse" scheme="http://yoursite.com/tags/Tomcat-Eclipse/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Tomcat]]></title>

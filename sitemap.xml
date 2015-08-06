@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2015/08/06/configTomcatAtEclipse/</loc>
+    <lastmod>2015-08-06T07:45:59.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2015/08/05/Tomcat/</loc>
     <lastmod>2015-08-05T07:25:21.000Z</lastmod>
   </url>
