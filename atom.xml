@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2015-08-06T07:45:59.000Z</updated>
+  <updated>2016-01-19T04:52:18.000Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -16,13 +16,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Resume]]></title>
+    <link href="http://yoursite.com/2016/01/18/Resume/"/>
+    <id>http://yoursite.com/2016/01/18/Resume/</id>
+    <published>2016-01-19T04:52:18.000Z</published>
+    <updated>2016-01-19T04:52:18.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[configTomcatAtEclipse]]></title>
     <link href="http://yoursite.com/2015/08/06/configTomcatAtEclipse/"/>
     <id>http://yoursite.com/2015/08/06/configTomcatAtEclipse/</id>
-    <published>2015-08-06T07:28:34.000Z</published>
-    <updated>2015-08-06T07:45:59.000Z</updated>
+    <published>2015-08-06T22:28:34.000Z</published>
+    <updated>2015-11-12T20:10:45.000Z</updated>
     <content type="html"><![CDATA[<p>唔，今天又配置环境了0 0.好不容易想蹭个页面的小功能做一做，所以需要重新配置一下环境。用intellij配置的话，我不知道那种VM argument写在哪里。因为要连数据库嘛。<br>以前用Eclipse配置过一次了，所以这次还是Eclipse配置环境吧。大概花了一小时吧。写一下需要做的步骤和遇到的问题。<br>问题1，在eclipse里面没找到新建web project<br>在eclipse的右上角有一个Java EE | Java  切换到Java EE就好了。<br>（我反复打开了很多次- - 好坑 我就说我下的就是Eclipse EE嘛。）<br>问题2，在我的Tomcat/webapps里面打死也没找到我部署的项目。<br>首先，需要在跟console位置差不多的地方找到server，新建一个server，把项目导入进去，然后双击新建好的server，选择第二个Use Tomcat Installation<br>Server Path 就是安装 Tomcat的路径<br>Deploy Path 我是选的 webapps<br>问题3，tomcat端口被占用<br>参考昨天的那个ps -ef|grep指令来弄吧~<br>问题4，run configuration里面的配置直接复制过来是有问题的<br>仔细检查一下，不需要反斜杠</p>
 <p>config里面的config.xml里面的目标数据库改一下。</p>
+<p>VS2010 - VS2010 SP1<br>dll -&gt; c/windows<br>MYSQL upgrade</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>唔，今天又配置环境了0 0.好不容易想蹭个页面的小功能做一做，所以需要重新配置一下环境。用intellij配置的话，我不知道那种VM argument写在哪里。因为要连数据库嘛。<br>以前用Eclipse配置过一次了，所以这次还是Eclipse配置环境吧。大概花了一小时吧]]>
@@ -36,7 +50,7 @@
     <title><![CDATA[Tomcat]]></title>
     <link href="http://yoursite.com/2015/08/05/Tomcat/"/>
     <id>http://yoursite.com/2015/08/05/Tomcat/</id>
-    <published>2015-08-05T07:15:29.000Z</published>
+    <published>2015-08-05T22:15:29.000Z</published>
     <updated>2015-08-05T07:25:21.000Z</updated>
     <content type="html"><![CDATA[<p>8.5<br>(题外话：今天好烦躁，出差了，换了一个环境，之前用intellij搭建的超级简单的项目居然出问题了，localhost:8080访问不了之类的，同时127.0.0.1:8080又可以访问)<br>（后来后来，通过程序猿鼓励师的帮忙，首先解决了tomcat 不能 shutdown的问题，后来又解决了找不到java class的问题，后来又有别的问题。解决方案如下）<br>出现的错误 tomcat,intellij<br>问题1，端口被占用，不能使用./shutdown.sh关闭Tomcat<br>localhost没有和那个127.0.0.1联系一起  去/etc/hosts 里面绑定一下（之前的mysites和127.0.0.1绑定了，已经被我删掉了）<br>问题2，端口被占用<br>ps -ef|grep tomcat 看看被占用的端口是什么 比如1066<br>然后 kill -9 1066<br>问题3，web.xml找不到Test的问题<br>就是对src目录进行mark dictionary as source root<br>问题4，output path有问题<br>应该要改为 /Users/yanghuirong/Documents/web_workspace/test/web/WEB-INF/classes<br>（把鼠标放在test的根目录 然后按花❀键和回车  设置path）</p>
 ]]></content>
@@ -52,7 +66,7 @@
     <title><![CDATA[My New Post]]></title>
     <link href="http://yoursite.com/2015/07/24/My-new-Post/"/>
     <id>http://yoursite.com/2015/07/24/My-new-Post/</id>
-    <published>2015-07-24T01:20:57.000Z</published>
+    <published>2015-07-24T16:20:57.000Z</published>
     <updated>2015-07-24T05:43:52.000Z</updated>
     <content type="html"><![CDATA[<p>To memory my personal blog.</p>
 ]]></content>
@@ -65,8 +79,8 @@
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2015/07/24/hello-world/"/>
-    <id>http://yoursite.com/2015/07/24/hello-world/</id>
+    <link href="http://yoursite.com/2015/07/23/hello-world/"/>
+    <id>http://yoursite.com/2015/07/23/hello-world/</id>
     <published>2015-07-24T01:14:28.000Z</published>
     <updated>2015-07-24T01:14:28.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
