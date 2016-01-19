@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2016-01-19T06:37:30.000Z</updated>
+  <updated>2016-01-19T06:38:23.000Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -20,11 +20,9 @@
     <link href="http://yoursite.com/2016/01/18/Resume/"/>
     <id>http://yoursite.com/2016/01/18/Resume/</id>
     <published>2016-01-19T04:52:18.000Z</published>
-    <updated>2016-01-19T06:37:30.000Z</updated>
-    <content type="html"><![CDATA[<p>|:————————:|<br>|#<strong>YANGHUI RONG</strong>|</p>
-<center>111</center>
+    <updated>2016-01-19T06:38:23.000Z</updated>
+    <content type="html"><![CDATA[<center>|#<strong>YANGHUI RONG</strong>|</center>
 
-<p>|| <!-- empty table header --><br>|:—:| <!-- table header/body separator with center formatting --><br>| I’m centered! | <!-- cell gets column's alignment --></p>
 <p>Palo Alto, CA 94306<br>yanghuirong2014@u.northwestern.edu<br><a href="https://github.com/yanghuirong" target="_blank" rel="external">Visit my GitHub</a></p>
 <h2 id="EDUCATION"><strong>EDUCATION</strong></h2><h3 id="Northwestern_University,_Evanston,_IL_Dec-_2015"><strong>Northwestern University</strong>, Evanston, IL                              Dec. 2015</h3><p>M.S. Computer Science  GPA: 3.86/4.0<br>➢   Courses: Data Structures, Database Systems, Computer Systems, Algorithms, Machine Learning, Game Design, and Software Management.</p>
 <p><strong>Dalian Nationalities University</strong>, Dalian, China                      Jun. 2014<br>B.S. Electrical Engineering  GPA: 88/100  Rank: No.1 in Department</p>
@@ -37,10 +35,9 @@
 <p><strong>HONOR</strong><br>2nd Place among over 100 teams in National RoboCup &amp; the Chinese Robotics Championship           Aug. 2012</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>|:————————:|<br>|#<strong>YANGHUI RONG</strong>|</p>
-<center>111</center>
+    <![CDATA[<center>|#<strong>YANGHUI RONG</strong>|</center>
 
-<p>|| <!-- empty table header --><br>|:—:| <!-- table header/b]]>
+<p>Palo Alto, CA 94306<br>yanghuirong2014@u.northwestern.edu<br><a href="https://github.c]]>
     </summary>
     
   </entry>
