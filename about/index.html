@@ -1,26 +1,27 @@
 
- <!DOCTYPE HTML>
+  
+    <!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   
-    <title>configTomcatAtEclipse | Yanghui Rong&#39;s Blog</title>
+    <title>about | Yanghui Rong&#39;s Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Yanghui Rong">
     
 
     
-    <meta name="description" content="唔，今天又配置环境了0 0.好不容易想蹭个页面的小功能做一做，所以需要重新配置一下环境。用intellij配置的话，我不知道那种VM argument写在哪里。因为要连数据库嘛。以前用Eclipse配置过一次了，所以这次还是Eclipse配置环境吧。大概花了一小时吧。写一下需要做的步骤和遇到的问题。问题1，在eclipse里面没找到新建web project在eclipse的右上角有一个Java">
-<meta property="og:type" content="article">
-<meta property="og:title" content="configTomcatAtEclipse">
-<meta property="og:url" content="http://yoursite.com/2015/08/06/configTomcatAtEclipse/index.html">
+    <meta name="description" content="I&apos;d like to share some good tech article and good solution to debugging or installation bugs.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="Yanghui Rong's Blog">
-<meta property="og:description" content="唔，今天又配置环境了0 0.好不容易想蹭个页面的小功能做一做，所以需要重新配置一下环境。用intellij配置的话，我不知道那种VM argument写在哪里。因为要连数据库嘛。以前用Eclipse配置过一次了，所以这次还是Eclipse配置环境吧。大概花了一小时吧。写一下需要做的步骤和遇到的问题。问题1，在eclipse里面没找到新建web project在eclipse的右上角有一个Java">
-<meta property="og:updated_time" content="2015-11-12T20:10:45.000Z">
+<meta property="og:description" content="I&apos;d like to share some good tech article and good solution to debugging or installation bugs.">
+<meta property="og:updated_time" content="2016-01-19T07:52:26.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="configTomcatAtEclipse">
-<meta name="twitter:description" content="唔，今天又配置环境了0 0.好不容易想蹭个页面的小功能做一做，所以需要重新配置一下环境。用intellij配置的话，我不知道那种VM argument写在哪里。因为要连数据库嘛。以前用Eclipse配置过一次了，所以这次还是Eclipse配置环境吧。大概花了一小时吧。写一下需要做的步骤和遇到的问题。问题1，在eclipse里面没找到新建web project在eclipse的右上角有一个Java">
+<meta name="twitter:title" content="about">
+<meta name="twitter:description" content="I&apos;d like to share some good tech article and good solution to debugging or installation bugs.">
 
     
     <link rel="alternative" href="/atom.xml" title="Yanghui Rong&#39;s Blog" type="application/atom+xml">
@@ -35,9 +36,9 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
 
-  <body>
-    <header>
-      
+      <body>
+        <header>
+          
 <div>
 		
 			<div id="imglogo">
@@ -71,47 +72,32 @@
 				</ul>
 			</nav>			
 </div>
-    </header>
-    <div id="container">
-      <div id="main" class="post" itemscope itemprop="blogPost">
+        </header>
+        <div id="container">
+          <div id="main" class="page" itemscope itemprop="blogPost">
   
 	<article itemprop="articleBody"> 
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/08/06/configTomcatAtEclipse/" title="configTomcatAtEclipse" itemprop="url">configTomcatAtEclipse</a>
+      <a href="/about/index.html" title="about" itemprop="url">about</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="Yanghui Rong" target="_blank" itemprop="author">Yanghui Rong</a>
 		
   <p class="article-time">
-    <time datetime="2015-08-06T22:28:34.000Z" itemprop="datePublished"> Published 2015-08-06</time>
+    <time datetime="2016-01-19T07:52:26.000Z" itemprop="datePublished"> Published 2016-01-18</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">Contents</strong>
-		
-			
-		
-		</div>
-		
-		<p>唔，今天又配置环境了0 0.好不容易想蹭个页面的小功能做一做，所以需要重新配置一下环境。用intellij配置的话，我不知道那种VM argument写在哪里。因为要连数据库嘛。<br>以前用Eclipse配置过一次了，所以这次还是Eclipse配置环境吧。大概花了一小时吧。写一下需要做的步骤和遇到的问题。<br>问题1，在eclipse里面没找到新建web project<br>在eclipse的右上角有一个Java EE | Java  切换到Java EE就好了。<br>（我反复打开了很多次- - 好坑 我就说我下的就是Eclipse EE嘛。）<br>问题2，在我的Tomcat/webapps里面打死也没找到我部署的项目。<br>首先，需要在跟console位置差不多的地方找到server，新建一个server，把项目导入进去，然后双击新建好的server，选择第二个Use Tomcat Installation<br>Server Path 就是安装 Tomcat的路径<br>Deploy Path 我是选的 webapps<br>问题3，tomcat端口被占用<br>参考昨天的那个ps -ef|grep指令来弄吧~<br>问题4，run configuration里面的配置直接复制过来是有问题的<br>仔细检查一下，不需要反斜杠</p>
-<p>config里面的config.xml里面的目标数据库改一下。</p>
-<p>VS2010 - VS2010 SP1<br>dll -&gt; c/windows<br>MYSQL upgrade</p>
-  
+		  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
-
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/Tomcat-Eclipse/">Tomcat Eclipse</a>
-  </div>
 
 </div>
 
@@ -119,7 +105,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://yoursite.com/2015/08/06/configTomcatAtEclipse/" data-title="configTomcatAtEclipse | Yanghui Rong&#39;s Blog" data-tsina="null" class="share clearfix">
+	  <div data-url="http://yoursite.com/about/index.html" data-title="about | Yanghui Rong&#39;s Blog" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -130,27 +116,6 @@
    	       
 	</article>
 	
-<nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/2016/01/18/Resume/" title="Resume">
-  <strong>上一篇：</strong><br/>
-  <span>
-  Resume</span>
-</a>
-</div>
-
-
-<div class="next">
-<a href="/2015/08/05/Tomcat/"  title="Tomcat">
- <strong>下一篇：</strong><br/> 
- <span>Tomcat
-</span>
-</a>
-</div>
-
-</nav>
-
 	
 
 <section id="comments" class="comment">
@@ -160,90 +125,8 @@
 </section>
 
 </div>  
-      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
-
-  <div id="toc" class="toc-aside">
-  <strong class="toc-title">Contents</strong>
- 
- 
- 
-  </div>
-
-<div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
-<aside class="clearfix">
-
-  
-<div class="github-card">
-<p class="asidetitle">Github Card</p>
-<div class="github-card" data-github="https://github.com/yanghuirong" data-width="220" data-height="119" data-theme="medium">
-<script type="text/javascript" src="//cdn.jsdelivr.net/github-cards/latest/widget.js" ></script>
-</div>
-  </div>
-
-
-
-  
-
-  
-<div class="tagslist">
-	<p class="asidetitle">Tags</p>
-		<ul class="clearfix">
-		
-			
-				<li><a href="/tags/Tomcat-Eclipse/" title="Tomcat Eclipse">Tomcat Eclipse<sup>1</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/tomcat-web-xml-intellij/" title="tomcat web.xml intellij">tomcat web.xml intellij<sup>1</sup></a></li>
-			
-		
-		</ul>
-</div>
-
-
-  <div class="linkslist">
-  <p class="asidetitle">Links</p>
-    <ul>
-        
-          <li>
-            
-            	<a href="rongyanghui@gmail.com" target="_blank" title="My email">My email</a>
-            
-          </li>
-        
-          <li>
-            
-            	<a href="https://github.com/yanghuirong" target="_blank" title="Github">Github</a>
-            
-          </li>
-        
-          <li>
-            
-            	<a href="https://www.linkedin.com/in/yanghuirong" target="_blank" title="Linkedin">Linkedin</a>
-            
-          </li>
-        
-    </ul>
-</div>
-
-  
-
-
-  <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
-</div>
-
-  <div class="weiboshow">
-  <p class="asidetitle">Weibo</p>
-    <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=null&verifier=&dpc=1"></iframe>
-</div>
-
-
-</aside>
-</div>
-    </div>
-    <footer><div id="footer" >
+        </div>
+        <footer><div id="footer" >
 	
 	
 	<section class="info">
@@ -281,7 +164,7 @@
 		</p>
 </div>
 </footer>
-    <script src="/js/jquery-2.0.3.min.js"></script>
+        <script src="/js/jquery-2.0.3.min.js"></script>
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>
 <script src="/js/jquery.qrcode-0.12.0.min.js"></script>
@@ -325,36 +208,8 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      
-      $('#toc.toc-aside').css('display', 'none');
         
     }
-  });
-});
-</script>
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var ai = $('.article-content>iframe'),
-      ae = $('.article-content>embed'),
-      t  = $('#toc'),
-      ta = $('#toc.toc-aside'),
-      o  = $('.openaside'),
-      c  = $('.closeaside');
-  if(ai.length>0){
-    ai.wrap('<div class="video-container" />');
-  };
-  if(ae.length>0){
-   ae.wrap('<div class="video-container" />');
-  };
-  c.click(function(){
-    ta.css('display', 'block').addClass('fadeIn');
-  });
-  o.click(function(){
-    ta.css('display', 'none');
-  });
-  $(window).scroll(function(){
-    ta.css("top",Math.max(140,320-$(this).scrollTop()));
   });
 });
 </script>
@@ -497,5 +352,6 @@ var _hmt = _hmt || [];
 
 <!-- Tiny_search End -->
 
-  </body>
-</html>
+      </body>
+     </html>
+     
