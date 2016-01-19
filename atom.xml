@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2016-01-19T06:41:01.000Z</updated>
+  <updated>2016-01-19T07:55:14.000Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -20,24 +20,20 @@
     <link href="http://yoursite.com/2016/01/18/Resume/"/>
     <id>http://yoursite.com/2016/01/18/Resume/</id>
     <published>2016-01-19T04:52:18.000Z</published>
-    <updated>2016-01-19T06:41:01.000Z</updated>
-    <content type="html"><![CDATA[<center><h1><strong>YANGHUI RONG</strong><h1></h1></h1></center>
-
-<p>Palo Alto, CA 94306<br>yanghuirong2014@u.northwestern.edu<br><a href="https://github.com/yanghuirong" target="_blank" rel="external">Visit my GitHub</a></p>
-<h2 id="EDUCATION"><strong>EDUCATION</strong></h2><h3 id="Northwestern_University,_Evanston,_IL_Dec-_2015"><strong>Northwestern University</strong>, Evanston, IL                              Dec. 2015</h3><p>M.S. Computer Science  GPA: 3.86/4.0<br>➢   Courses: Data Structures, Database Systems, Computer Systems, Algorithms, Machine Learning, Game Design, and Software Management.</p>
-<p><strong>Dalian Nationalities University</strong>, Dalian, China                      Jun. 2014<br>B.S. Electrical Engineering  GPA: 88/100  Rank: No.1 in Department</p>
-<p><strong>SKILLS</strong><br>Java, HTML5, JavaScript, jQuery, CSS, Python, C, C#, Matlab, MySQL, SQL, Parse, Bootstrap, Angular.js, LINUX, .NET, Visual Studio, Photoshop CS5, Robotics and Control Systems</p>
-<p><strong>WORK EXPERIENCE</strong><br>  ZTEsoft Internship, Changsha, China                                    Jun. 2015 - Sep. 2015<br>➢    Built front-end of Yunnan Poverty Alleviation Office Management System using Java, JSP, JavaScript and Bootstrap.<br>➢    Built my own tech blog on github.io by Hexo and designed web pages using ReactJS.<br>➢    Built Web Spider with Java, Jsoup, HtmlUnit and Apache POI to analyze the web pages and collect the needed content from web pages.</p>
-<p><strong>PROJECTS</strong><br>  Mobile App 1: <a href="http://devpost.com/software/fareshare-ambqe" target="_blank" rel="external">FareShare</a>, Northwestern University                                      Mar. 2015 - Jul. 2015<br>Software developer, JavaScript, HTML5, CSS, Angular, Parse, Agile<br>➢    Developed a mobile app for people to share a taxi according to their locations and time to help them save money.<br>➢    Built a friendly UI for users to login in, enter information on a taxi form, and search for a taxi to join using JavaScript, HTML5, CSS, Bootstrap and Supersonic UI components.<br>➢    Used Parse as back-end and the Google Map API to get the latitude and longitude of the location and filter matches.<br>➢    Used Agile management with teammates via GitHub and Trello.</p>
+    <updated>2016-01-19T07:55:14.000Z</updated>
+    <content type="html"><![CDATA[<p><center><h1><strong>YANGHUI RONG</strong><h1></h1></h1></center><br>Palo Alto, CA 94306<br>yanghuirong2014@u.northwestern.edu<br><a href="https://github.com/yanghuirong" target="_blank" rel="external">Visit my GitHub</a></p>
+<h3 id="EDUCATION"><strong>EDUCATION</strong></h3><h4 id="Northwestern_University,_Evanston,_IL_Dec-_2015"><strong>Northwestern University</strong>, Evanston, IL                              Dec. 2015</h4><p>M.S. Computer Science  GPA: 3.86/4.0<br>➢   Courses: Data Structures, Database Systems, Computer Systems, Algorithms, Machine Learning, Game Design, and Software Management.</p>
+<h4 id="Dalian_Nationalities_University,_Dalian,_China_Jun-_2014"><strong>Dalian Nationalities University</strong>, Dalian, China                      Jun. 2014</h4><p>B.S. Electrical Engineering  GPA: 88/100  Rank: No.1 in Department</p>
+<h3 id="SKILLS"><strong>SKILLS</strong></h3><p>Java, HTML5, JavaScript, jQuery, CSS, Python, C, C#, Matlab, MySQL, SQL, Parse, Bootstrap, Angular.js, LINUX, .NET, Visual Studio, Photoshop CS5, Robotics and Control Systems</p>
+<h3 id="WORK_EXPERIENCE"><strong>WORK EXPERIENCE</strong></h3><p>  ZTEsoft Internship, Changsha, China                                    Jun. 2015 - Sep. 2015<br>➢    Built front-end of Yunnan Poverty Alleviation Office Management System using Java, JSP, JavaScript and Bootstrap.<br>➢    Built my own tech blog on github.io by Hexo and designed web pages using ReactJS.<br>➢    Built Web Spider with Java, Jsoup, HtmlUnit and Apache POI to analyze the web pages and collect the needed content from web pages.</p>
+<h3 id="PROJECTS"><strong>PROJECTS</strong></h3><p>  Mobile App 1: <a href="http://devpost.com/software/fareshare-ambqe" target="_blank" rel="external">FareShare</a>, Northwestern University                                      Mar. 2015 - Jul. 2015<br>Software developer, JavaScript, HTML5, CSS, Angular, Parse, Agile<br>➢    Developed a mobile app for people to share a taxi according to their locations and time to help them save money.<br>➢    Built a friendly UI for users to login in, enter information on a taxi form, and search for a taxi to join using JavaScript, HTML5, CSS, Bootstrap and Supersonic UI components.<br>➢    Used Parse as back-end and the Google Map API to get the latitude and longitude of the location and filter matches.<br>➢    Used Agile management with teammates via GitHub and Trello.</p>
 <p>  Mobile App 2: Onycholytics, Northwestern University                     Mar. 2015 - Jul. 2015<br>Software developer, JavaScript, HTML5, CSS, Angular, Parse, Agile<br>➢    Worked on a disease-tracking app for patients to track the healing progress of infected nails.<br>➢    Allowed patients to take photos of nails, edit/view their photos and contact doctors in App.<br>➢    Edited the image by HTML5 canvas for standardizing the outline of fingers.<br>➢    Used Agile management via GitHub and Trello and implemented Karma-Jasmine unit test and end-to-end test.</p>
 <p>Sentiment Analysis on Naive Bayes, Northwestern University                Jan. 2015 - Mar. 2015<br>Software developer, Python, Naive Bayes, NLTK<br>➢    Trained the system with more than 10k reviews from <a href="http://www.rateitall.com" target="_blank" rel="external">http://www.rateitall.com</a> by Naive Bayes and saved statistical result dictionaries (like hashtables) to pickle files and output if the input review is positive or negative.<br>➢    Evaluation: 10-fold Cross Validation (Naive Bayes: Precision: 87%, Improved Classifier: Precision: 89%, Average Precision of other groups: 80%)</p>
 <p>Database Application Implementing Academic System, Northwestern University                             Nov. 2015<br>➢    Worked on a program that allowed students to login, check the transcript, enroll in courses according to enrollment and pre-requisites, etc.<br>➢    Used an API to connect to MySQL Database and stored procedures.</p>
-<p><strong>HONOR</strong><br>2nd Place among over 100 teams in National RoboCup &amp; the Chinese Robotics Championship           Aug. 2012</p>
+<h3 id="HONOR"><strong>HONOR</strong></h3><p>2nd Place among over 100 teams in National RoboCup &amp; the Chinese Robotics Championship           Aug. 2012</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<center><h1><strong>YANGHUI RONG</strong><h1></h1></h1></center>
-
-<p>Palo Alto, CA 94306<br>yanghuirong2014@u.northwestern.edu<br><a href="h]]>
+    <![CDATA[<p><center><h1><strong>YANGHUI RONG</strong><h1></h1></h1></center><br>Palo Alto, CA 94306<br>yanghuirong2014@u.northwestern.edu<br><a href=]]>
     </summary>
     
   </entry>
