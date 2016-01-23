@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2016-01-23T05:00:44.000Z</updated>
+  <updated>2016-01-23T05:17:16.000Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="http://yoursite.com/2016/01/22/AT-T-signal-problem-fixed-by-changing-LTE-to-Data-only/"/>
     <id>http://yoursite.com/2016/01/22/AT-T-signal-problem-fixed-by-changing-LTE-to-Data-only/</id>
     <published>2016-01-23T04:51:39.000Z</published>
-    <updated>2016-01-23T05:00:44.000Z</updated>
+    <updated>2016-01-23T05:17:16.000Z</updated>
     <content type="html"><![CDATA[<p>I had an interview today. And the signal is pretty bad with my phone. I can hear the interviewer very clearly. But he can hardly hear me.<br>So I am thinking about whether it’s because I moved from IL to CA. I called AT&amp;T about my problems.<br>They tried 2 ways, the second solution fixed my problem.<br>The first solution is to turn off my account in the tower and restart it. All I need to do is turning off my phone and turning it on.<br>I tested the call quality with a friends who lives within a mile. It doesn’t work.</p>
 <p>The second solution is cutting the call with the agent. <strong>If you have a iPhone, go to setting - cellular -  change to “Data Only”.</strong><br>This method really solved my problem. Hope this can be helpful to other people.</p>
+<p>There is another article talking about the same problem. <a href="http://www.imore.com/your-iphone-6-or-6-plus-dropping-calls-att-heres-fix" target="_blank" rel="external">Is your iPhone 6 or 6 Plus dropping calls on AT&amp;T? Here’s the fix!</a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>I had an interview today. And the signal is pretty bad with my phone. I can hear the interviewer very clearly. But he can hardly hear me.]]>
