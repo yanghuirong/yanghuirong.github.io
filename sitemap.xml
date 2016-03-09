@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/03/09/MongoDB_Summary/</loc>
+    <lastmod>2016-03-09T09:10:33.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/01/22/AT-T-signal-problem-fixed-by-changing-LTE-to-Data-only/</loc>
     <lastmod>2016-01-28T19:34:54.000Z</lastmod>
   </url>
